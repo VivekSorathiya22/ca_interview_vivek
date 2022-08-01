@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+## My name is Vivek Sorathiya and I am Flutter Developer
+
+My Contact Number :- 9925755626
+My Email Id  :- viveksorathiya2222@gmail.com
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

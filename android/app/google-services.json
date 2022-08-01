@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "384596201465",
+    "project_id": "paring-84490",
+    "storage_bucket": "paring-84490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384596201465:android:0843998ea49dd76f3b3728",
+        "android_client_info": {
+          "package_name": "com.example.pairingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384596201465-0187ftkn0jacjigss44hhnm03hcccn4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pairingapp",
+            "certificate_hash": "cff33f5bda4b225df91c5ff566c4e1aa7e5b4a48"
+          }
+        },
+        {
+          "client_id": "384596201465-lgiiuim62f0cm7ddooj7ins8qvv6ffcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZgtExeIyAr9qDe9KsmjfRyZikOpyQhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384596201465-lgiiuim62f0cm7ddooj7ins8qvv6ffcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

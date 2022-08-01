@@ -1,4 +1,4 @@
-package com.example.pairing_app
+package com.example.pairingapp
 
 import io.flutter.embedding.android.FlutterActivity
 
