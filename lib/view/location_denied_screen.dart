@@ -92,9 +92,8 @@ class LocationDeniedScreen extends StatelessWidget {
                       if (_permissionGranted != PermissionStatus.granted) {
                         _permissionGranted = await location.requestPermission();
                       }
-                      else{
-                        Navigator.pushNamed(context, Routes.getDeniedRoute());
-                      }
+                    } else{
+                      Navigator.pushNamed(context, Routes.getSuccessRoute());
                     }
                   },
                   child: Container(

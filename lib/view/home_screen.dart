@@ -55,11 +55,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       if (_permissionGranted == PermissionStatus.denied) {
                         _permissionGranted = await location.requestPermission();
                         if (_permissionGranted != PermissionStatus.granted) {
-                          Navigator.pushNamed(context, Routes.getDeniedRoute());
+                          Navigator.pushNamed(context, Routes.getSuccessRoute());
                         }
                         else{
                           Navigator.pushNamed(context, Routes.getDeniedRoute());
                         }
+                      }
+                      else{
+                        Navigator.pushNamed(context, Routes.getSuccessRoute());
                       }
                     },
                     child: const Text(
